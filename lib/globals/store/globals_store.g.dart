@@ -1,0 +1,76 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'globals_store.dart';
+
+// **************************************************************************
+// StoreGenerator
+// **************************************************************************
+
+// ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic, no_leading_underscores_for_local_identifiers
+
+mixin _$GlobalsStore on _GlobalsStoreBase, Store {
+  late final _$loadingAtom =
+      Atom(name: '_GlobalsStoreBase.loading', context: context);
+
+  @override
+  bool get loading {
+    _$loadingAtom.reportRead();
+    return super.loading;
+  }
+
+  @override
+  set loading(bool value) {
+    _$loadingAtom.reportWrite(value, super.loading, () {
+      super.loading = value;
+    });
+  }
+
+  late final _$nomeCategoriaAtom =
+      Atom(name: '_GlobalsStoreBase.nomeCategoria', context: context);
+
+  @override
+  String get nomeCategoria {
+    _$nomeCategoriaAtom.reportRead();
+    return super.nomeCategoria;
+  }
+
+  @override
+  set nomeCategoria(String value) {
+    _$nomeCategoriaAtom.reportWrite(value, super.nomeCategoria, () {
+      super.nomeCategoria = value;
+    });
+  }
+
+  late final _$_GlobalsStoreBaseActionController =
+      ActionController(name: '_GlobalsStoreBase', context: context);
+
+  @override
+  dynamic setNomeCategoria(dynamic value) {
+    final _$actionInfo = _$_GlobalsStoreBaseActionController.startAction(
+        name: '_GlobalsStoreBase.setNomeCategoria');
+    try {
+      return super.setNomeCategoria(value);
+    } finally {
+      _$_GlobalsStoreBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  dynamic setLoading(dynamic value) {
+    final _$actionInfo = _$_GlobalsStoreBaseActionController.startAction(
+        name: '_GlobalsStoreBase.setLoading');
+    try {
+      return super.setLoading(value);
+    } finally {
+      _$_GlobalsStoreBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  String toString() {
+    return '''
+loading: ${loading},
+nomeCategoria: ${nomeCategoria}
+    ''';
+  }
+}
